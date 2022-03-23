@@ -1,7 +1,7 @@
 {
   "name": "my-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Телеграмм бот для подбора рандомных советов",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,7 +25,10 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "dotenv": "^16.0.0",
-    "telegraf": "^4.7.0"
+    "random-advice": "^1.0.0",
+    "telegraf": "^4.7.0",
+    "xmlhttprequest": "^1.8.0"
   }
 }
