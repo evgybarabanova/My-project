@@ -1,6 +1,6 @@
 const commands = `
 /start -Перезапустить бота
-/help - Помощь
-/letsGo - Приступить к поиску рандомных советов
+/advice - Получить совет
+/toDo - Чем заняться, когда скучно
 `
 module.exports.commands = commands
