@@ -65,7 +65,7 @@ bot.action('translate3', async (ctx) => {
 bot.command('search', (ctx) => {
   const text = ctx.message.text
 
-  const [, query] = text.split('-')
+  const [, query] = text.split(' ')
 
   axios.get(`https://api.adviceslip.com/advice/search/${query}`)
     .then(response => {
@@ -84,7 +84,7 @@ bot.command('todo', (ctx) => {
 
         ctx.replyWithHTML(`toDo: ${_data}`, Markup.inlineKeyboard(
           [
-            [Markup.button.callback('перевести на русский', 'translate4'),  Markup.button.callback('traducir al español', 'translate5'), Markup.button.callback('翻譯成中文', 'translate6')
+            [Markup.button.callback('перевести на русский', 'translate4'), Markup.button.callback('traducir al español', 'translate5'), Markup.button.callback('翻譯成中文', 'translate6')
               // [Markup.button.callback('получить веселую картинку', 'btn_2')]
             ]
           ]
@@ -119,6 +119,9 @@ bot.action('translate6', async (ctx) => {
   })
 })
 
+bot.command('findcat', (ctx) => {
+  ctx.replyWithPhoto('https://cataas.com/cat?id')
+})
 
 bot.launch()
 
