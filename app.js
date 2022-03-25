@@ -119,8 +119,10 @@ bot.action('translate6', async (ctx) => {
   })
 })
 
-bot.command('findcat', (ctx) => {
-  ctx.replyWithPhoto('https://cataas.com/cat?id')
+bot.command('findcat', async (ctx) => {
+ const res = await axios.get('https://aws.random.cat/meow')
+ //console.log(res.data.file);
+ ctx.replyWithPhoto(res.data.file)
 })
 
 bot.launch()
