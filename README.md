@@ -7,4 +7,4 @@
 NodeJs, Express, Telegram Bot API, Google Translate API, Advice API.
 
 #GIF
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![](https://github.com/evgybarabanova/Telegram-Bot-Advice/blob/main/public/gif2.gif)
