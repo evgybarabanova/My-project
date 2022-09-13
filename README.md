@@ -6,5 +6,5 @@
 # Стек проекта
 NodeJs, Express, Telegram Bot API, Google Translate API, Advice API.
 
-#GIF
+# GIF
 ![](https://github.com/evgybarabanova/Telegram-Bot-Advice/blob/main/public/gif2.gif)
