@@ -5,3 +5,6 @@
 
 # Стек проекта
 NodeJs, Express, Telegram Bot API, Google Translate API, Advice API.
+
+#GIF
+![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
